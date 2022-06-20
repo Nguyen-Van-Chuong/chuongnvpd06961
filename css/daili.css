@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Work+Sans&display=swap');
+
+.col-sm-6{
+    font-family: 'Work Sans', sans-serif;
+}
+h3{
+    font-weight: bold;
+}
+.text-justify {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0 10px;
+    margin-bottom: 10px;
+}
+.text-justify span p {
+    text-align: left;
+    padding-top: 3px;
+    padding-left: 24px;
+}
+.border{
+    text-align: center;
+}
+/* .md {
+    float: left;
+    padding-top: 14.5px;
+} */
+.card-body{
+    grid-gap: 10px 0;
+}
+@media only screen and (max-width: 46.1875em) {
+    .text-justify{
+        display: contents;
+        margin-bottom: 20px;
+    }
+    .text-justify iframe{
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+    .text-justify{
+        display: contents;
+        margin-bottom: 20px;
+    }
+    .text-justify iframe{
+        width: 650px;
+    }
+}

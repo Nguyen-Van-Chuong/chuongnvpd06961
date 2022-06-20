@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Đại lý</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/logo-large.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link rel="stylesheet" href="css/trangchu.css">
+  <link rel="stylesheet" href="css/daili.css">
+  <style>
+    .flex-row .flex-item {
+      -webkit-box-flex: 1 1 auto;
+      -moz-box-flex: 1 1 auto;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      width: calc(33.3% - 60px);
+      margin: 30px;
+      position: relative;
+      width: calc(50% - 60px);
+    }
+
+    .flex-row {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+
+    .flex-row.flex-stats .flex-item h3:before {
+      content: url(../images/dots.svg);
+      width: 12px;
+      height: 40px;
+      display: inline-block;
+      margin-right: 14px;
+      position: absolute;
+      left: -25px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="loader-container">
+    <img src="images/1633652316_213378_gif-url.gif" alt="">
+</div>
+  <header class="jumbotron text-center" style="margin-bottom:0;padding: 0;">
+    <a href="index.html"><img style="width: 200px;" data-aos="fade-down" src="images/Pepsi-Logo-PNG-2003-–-2006.png"
+        class="rounded img-fluid" alt=""></a>
+  </header>
+
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <a class="navbar-brand" href="#">Pepsi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="index.html">Trang chủ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="product.html">Sản phẩm</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase active" href="daily.html">Đại lý</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase font-weight-normal " href="history.html">Giới thiệu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase font-weight-normal" href="news.html">Tin tức</a>
+      </ul>
+      <form action="" class="form-action form-inline">
+        <input type="text" placeholder="Tìm kiếm bằng từ khóa" required class="form-control mr-sm-2 form-action__input">
+        <button type="submit" class="btn form-action__btn">Bắt đầu</button>
+      </form>
+    </div>
+
+  </nav>
+  <section class="container-fluid">
+    <section class="content pt-5 pb-5 ">
+      <div class="row">
+        <div class="col-sm-6 text-center">
+          <img src="images/retina_image.jpg" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-sm-6 pb-5 pr-5">
+
+          <h3>Giới thiệu về Công ty Coca-Cola</h3>
+          <p style="
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1.88;">Công ty Coca-Cola (NYSE: KO) là một tổng công ty nước giải khát với các sản phẩm được bán
+            tại hơn 200 quốc
+            gia và vùng lãnh thổ. Mục đích của công ty chúng tôi là làm mới thế giới và tạo ra sự khác biệt. Danh mục
+            thương hiệu của chúng tôi bao gồm Coca-Cola, Sprite, Fanta và các loại nước ngọt có ga khác. Các nhãn hiệu
+            hydrat hóa, thể thao, cà phê và trà của chúng tôi bao gồm Dasani, smartwater, vitaminwater, Topo Chico,
+            Powerade, Costa, Georgia, Gold Peak, Honest, Ayataka và BodyArmor. Các nhãn hiệu dinh dưỡng, nước trái cây,
+            sữa và nước giải khát có nguồn gốc thực vật của chúng tôi bao gồm Minute Maid, Simply, ngây thơ, Del Valle,
+            fairlife và AdeS. Chúng tôi liên tục chuyển đổi danh mục đầu tư của mình, từ việc giảm lượng đường trong đồ
+            uống sang đưa các sản phẩm mới sáng tạo ra thị trường. Chúng tôi tìm cách tác động tích cực đến cuộc sống
+            của mọi người, cộng đồng và hành tinh thông qua việc bổ sung nước, tái chế bao bì, thực hành tìm nguồn cung
+            ứng bền vững và giảm phát thải carbon trên toàn bộ chuỗi giá trị của chúng tôi. Cùng với các đối tác đóng
+            chai, chúng tôi tuyển dụng hơn 700.000 nhân viên, giúp mang lại cơ hội kinh tế cho các cộng đồng địa phương
+            trên toàn thế giới.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="flex-row flex-stats flex-2">
+        <div class="flex-item">
+          <h3>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;"># 1 Chia sẻ giá trị trong NARTD</font>
+            </font>
+          </h3>
+          <p>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Vị thế toàn cầu vững chắc</font>
+            </font>
+          </p>
+        </div>
+        <div class="flex-item">
+          <h3>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Hơn 200 quốc gia và vùng lãnh thổ với ~ 225 đối tác đóng chai
+              </font>
+            </font>
+          </h3>
+          <p>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Dấu chân toàn cầu với cảm ứng cục bộ</font>
+            </font>
+          </p>
+        </div>
+        <div class="flex-item">
+          <h3>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">$ 7,3 tỷ</font>
+            </font>
+          </h3>
+          <p>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Trả cho cổ đông vào năm 2021 thông qua cổ tức</font>
+            </font>
+          </p>
+        </div>
+        <div class="flex-item">
+          <h3>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">60 năm</font>
+            </font>
+          </h3>
+          <p>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Tăng Cổ tức Hàng năm Liên tục (Tính đến tháng 2 năm 2022)</font>
+            </font>
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </section>
+
+  <section class="container" style="margin-top:30px">
+
+
+
+    <section id="accordion">
+
+      <section class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            Miền Nam
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+          <div class="card-body">
+            <div class="text-justify">
+              <span>
+                <img src="images/daili/1.jpg" class="img-thumbnail " alt="" srcset="">
+
+
+
+              </span>
+              <span>
+                <div class="border ">
+
+
+                  <p>
+                    <ion-icon name="location-outline"> </ion-icon>
+                    Địa chỉ: D8/13C, Nữ Dân Công, Xã Vĩnh Lộc A, H. Bình Chánh, Tp. Hồ Chí Minh
+                  </p>
+
+                  <p>
+                    <ion-icon name="call-outline"></ion-icon>
+                    Hotline: 0906109050 - 0907109050
+                  </p>
+
+                  <p>
+                    <ion-icon name="briefcase-outline"></ion-icon>
+                    Điện thoại: 028.66856477 -
+                    028.66856488
+                  </p>
+
+                  <p>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    Email: nhaphanphoiquynhanh@gmail.com
+                  </p>
+                </div>
+
+
+              </span>
+              <span>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4370062760763!2d106.61021431468399!3d10.777803262115711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752c114cf858a5%3A0x6cb91592fc65c85a!2zMjA2LzkgTMOqIFbEg24gUXXhu5tpLCBCw6xuaCBIxrBuZyBIb8OgIEEsIELDrG5oIFTDom4sIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1654660447476!5m2!1sen!2s"
+                  width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+              </span>
+
+            </div>
+            <div class="text-justify">
+              <span>
+                <img src="images/daili/2.jpg" class="img-thumbnail " alt="" srcset="">
+
+
+
+              </span>
+              <span>
+                <div class="border ">
+
+
+                  <p>
+                    <ion-icon name="location-outline"> </ion-icon>
+                    Địa chỉ: D8/13C, Nữ Dân Công, Xã Vĩnh Lộc A, H. Bình Chánh, Tp. Hồ Chí Minh
+                  </p>
+
+                  <p>
+                    <ion-icon name="call-outline"></ion-icon>
+                    Hotline: 0906109050 - 0907109050
+                  </p>
+
+                  <p>
+                    <ion-icon name="briefcase-outline"></ion-icon>
+                    Điện thoại: 028.66856477 -
+                    028.66856488
+                  </p>
+
+                  <p>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    Email: nhaphanphoiquynhanh@gmail.com
+                  </p>
+                </div>
+
+
+
+              </span>
+              <span>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.731974838117!2d106.56256281446586!3d10.831811592283943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b1a2c67b757%3A0x9ae63a07de3178d8!2zRDgsIDEzIMSQLiBEw6JuIEPDtG5nIEhv4bqjIFR1eeG6v24sIFbEqW5oIEzhu5ljIEEsIELDrG5oIENow6FuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1654665222179!5m2!1svi!2s"
+                  width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+              </span>
+
+            </div>
+            <div class="text-justify">
+              <span>
+                <img src="images/daili/1.jpg" class="img-thumbnail " alt="" srcset="">
+
+
+
+              </span>
+              <span>
+                <div class="border ">
+
+
+                  <p>
+                    <ion-icon name="location-outline"> </ion-icon>
+                    Địa chỉ: D8/13C, Nữ Dân Công, Xã Vĩnh Lộc A, H. Bình Chánh, Tp. Hồ Chí Minh
+                  </p>
+
+                  <p>
+                    <ion-icon name="call-outline"></ion-icon>
+                    Hotline: 0906109050 - 0907109050
+                  </p>
+
+                  <p>
+                    <ion-icon name="briefcase-outline"></ion-icon>
+                    Điện thoại: 028.66856477 -
+                    028.66856488
+                  </p>
+
+                  <p>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    Email: nhaphanphoiquynhanh@gmail.com
+                  </p>
+                </div>
+              </span>
+              <span>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4370062760763!2d106.61021431468399!3d10.777803262115711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752c114cf858a5%3A0x6cb91592fc65c85a!2zMjA2LzkgTMOqIFbEg24gUXXhu5tpLCBCw6xuaCBIxrBuZyBIb8OgIEEsIELDrG5oIFTDom4sIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1654660447476!5m2!1sen!2s"
+                  width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+              </span>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            Miền Trung
+          </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <div class="text-justify">
+              <span>
+                <img src="images/daili/1.jpg" class="img-thumbnail " alt="" srcset="">
+
+
+
+              </span>
+              <span>
+                <div class="border ">
+
+
+                  <p>
+                    <ion-icon name="location-outline"> </ion-icon>
+                    Địa chỉ: D8/13C, Nữ Dân Công, Xã Vĩnh Lộc A, H. Bình Chánh, Tp. Hồ Chí Minh
+                  </p>
+
+                  <p>
+                    <ion-icon name="call-outline"></ion-icon>
+                    Hotline: 0906109050 - 0907109050
+                  </p>
+
+                  <p>
+                    <ion-icon name="briefcase-outline"></ion-icon>
+                    Điện thoại: 028.66856477 -
+                    028.66856488
+                  </p>
+
+                  <p>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    Email: nhaphanphoiquynhanh@gmail.com
+                  </p>
+                </div>
+
+
+              </span>
+              <span>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4370062760763!2d106.61021431468399!3d10.777803262115711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752c114cf858a5%3A0x6cb91592fc65c85a!2zMjA2LzkgTMOqIFbEg24gUXXhu5tpLCBCw6xuaCBIxrBuZyBIb8OgIEEsIELDrG5oIFTDom4sIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1654660447476!5m2!1sen!2s"
+                  width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+              </span>
+
+            </div>
+            <div class="text-justify">
+              <span>
+                <img src="images/daili/2.jpg" class="img-thumbnail " alt="" srcset="">
+
+
+
+              </span>
+              <span>
+                <div class="border ">
+
+
+                  <p>
+                    <ion-icon name="location-outline"> </ion-icon>
+                    Địa chỉ: D8/13C, Nữ Dân Công, Xã Vĩnh Lộc A, H. Bình Chánh, Tp. Hồ Chí Minh
+                  </p>
+
+                  <p>
+                    <ion-icon name="call-outline"></ion-icon>
+                    Hotline: 0906109050 - 0907109050
+                  </p>
+
+                  <p>
+                    <ion-icon name="briefcase-outline"></ion-icon>
+                    Điện thoại: 028.66856477 -
+                    028.66856488
+                  </p>
+
+                  <p>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    Email: nhaphanphoiquynhanh@gmail.com
+                  </p>
+                </div>
+
+
+
+              </span>
+              <span>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.731974838117!2d106.56256281446586!3d10.831811592283943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b1a2c67b757%3A0x9ae63a07de3178d8!2zRDgsIDEzIMSQLiBEw6JuIEPDtG5nIEhv4bqjIFR1eeG6v24sIFbEqW5oIEzhu5ljIEEsIELDrG5oIENow6FuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1654665222179!5m2!1svi!2s"
+                  width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+              </span>
+
+            </div>
+            <div class="text-justify">
+              <span>
+                <img src="images/daili/1.jpg" class="img-thumbnail " alt="" srcset="">
+
+
+
+              </span>
+              <span>
+                <div class="border ">
+
+
+                  <p>
+                    <ion-icon name="location-outline"> </ion-icon>
+                    Địa chỉ: D8/13C, Nữ Dân Công, Xã Vĩnh Lộc A, H. Bình Chánh, Tp. Hồ Chí Minh
+                  </p>
+
+                  <p>
+                    <ion-icon name="call-outline"></ion-icon>
+                    Hotline: 0906109050 - 0907109050
+                  </p>
+
+                  <p>
+                    <ion-icon name="briefcase-outline"></ion-icon>
+                    Điện thoại: 028.66856477 -
+                    028.66856488
+                  </p>
+
+                  <p>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    Email: nhaphanphoiquynhanh@gmail.com
+                  </p>
+                </div>
+              </span>
+              <span>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4370062760763!2d106.61021431468399!3d10.777803262115711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752c114cf858a5%3A0x6cb91592fc65c85a!2zMjA2LzkgTMOqIFbEg24gUXXhu5tpLCBCw6xuaCBIxrBuZyBIb8OgIEEsIELDrG5oIFTDom4sIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1654660447476!5m2!1sen!2s"
+                  width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+              </span>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+            Miền Bắc
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <div class="text-justify">
+              <span>
+                <img src="images/daili/1.jpg" class="img-thumbnail " alt="" srcset="">
+
+
+
+              </span>
+              <span>
+                <div class="border ">
+
+
+                  <p>
+                    <ion-icon name="location-outline"> </ion-icon>
+                    Địa chỉ: D8/13C, Nữ Dân Công, Xã Vĩnh Lộc A, H. Bình Chánh, Tp. Hồ Chí Minh
+                  </p>
+
+                  <p>
+                    <ion-icon name="call-outline"></ion-icon>
+                    Hotline: 0906109050 - 0907109050
+                  </p>
+
+                  <p>
+                    <ion-icon name="briefcase-outline"></ion-icon>
+                    Điện thoại: 028.66856477 -
+                    028.66856488
+                  </p>
+
+                  <p>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    Email: nhaphanphoiquynhanh@gmail.com
+                  </p>
+                </div>
+
+
+              </span>
+              <span>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4370062760763!2d106.61021431468399!3d10.777803262115711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752c114cf858a5%3A0x6cb91592fc65c85a!2zMjA2LzkgTMOqIFbEg24gUXXhu5tpLCBCw6xuaCBIxrBuZyBIb8OgIEEsIELDrG5oIFTDom4sIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1654660447476!5m2!1sen!2s"
+                  width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+              </span>
+
+            </div>
+            <div class="text-justify">
+              <span>
+                <img src="images/daili/2.jpg" class="img-thumbnail " alt="" srcset="">
+
+
+
+              </span>
+              <span>
+                <div class="border ">
+
+
+                  <p>
+                    <ion-icon name="location-outline"> </ion-icon>
+                    Địa chỉ: D8/13C, Nữ Dân Công, Xã Vĩnh Lộc A, H. Bình Chánh, Tp. Hồ Chí Minh
+                  </p>
+
+                  <p>
+                    <ion-icon name="call-outline"></ion-icon>
+                    Hotline: 0906109050 - 0907109050
+                  </p>
+
+                  <p>
+                    <ion-icon name="briefcase-outline"></ion-icon>
+                    Điện thoại: 028.66856477 -
+                    028.66856488
+                  </p>
+
+                  <p>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    Email: nhaphanphoiquynhanh@gmail.com
+                  </p>
+                </div>
+
+
+
+              </span>
+              <span>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.731974838117!2d106.56256281446586!3d10.831811592283943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b1a2c67b757%3A0x9ae63a07de3178d8!2zRDgsIDEzIMSQLiBEw6JuIEPDtG5nIEhv4bqjIFR1eeG6v24sIFbEqW5oIEzhu5ljIEEsIELDrG5oIENow6FuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1654665222179!5m2!1svi!2s"
+                  width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+              </span>
+
+            </div>
+            <div class="text-justify">
+              <span>
+                <img src="images/daili/1.jpg" class="img-thumbnail " alt="" srcset="">
+
+
+
+              </span>
+              <span>
+                <div class="border ">
+
+
+                  <p>
+                    <ion-icon name="location-outline"> </ion-icon>
+                    Địa chỉ: D8/13C, Nữ Dân Công, Xã Vĩnh Lộc A, H. Bình Chánh, Tp. Hồ Chí Minh
+                  </p>
+
+                  <p>
+                    <ion-icon name="call-outline"></ion-icon>
+                    Hotline: 0906109050 - 0907109050
+                  </p>
+
+                  <p>
+                    <ion-icon name="briefcase-outline"></ion-icon>
+                    Điện thoại: 028.66856477 -
+                    028.66856488
+                  </p>
+
+                  <p>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    Email: nhaphanphoiquynhanh@gmail.com
+                  </p>
+                </div>
+              </span>
+              <span>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4370062760763!2d106.61021431468399!3d10.777803262115711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752c114cf858a5%3A0x6cb91592fc65c85a!2zMjA2LzkgTMOqIFbEg24gUXXhu5tpLCBCw6xuaCBIxrBuZyBIb8OgIEEsIELDrG5oIFTDom4sIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1654660447476!5m2!1sen!2s"
+                  width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+              </span>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </section>
+  <footer class="jumbotron-fluid " style="margin:0 auto">
+
+    <section class="container">
+      <section class="row">
+        <article class="footer-col" data-aos="fade-right">
+          <h4>Công ty</h4>
+          <ul>
+            <li><a href="#">liên hệ chúng tôi</a></li>
+            <li><a href="#">Điều khoản và điều kiện </a></li>
+            <li><a href="#"> Bản quyền</a></li>
+
+          </ul>
+        </article>
+        <article class="footer-col" data-aos="fade-up">
+          <h4>Trợ giúp</h4>
+          <ul>
+            <li><a href="#"> Sự thật sản phẩm</a></li>
+            <li><a href="#"> Định vị vửa hàng</a></li>
+            <li><a href="#">chính sách bảo mật</a></li>
+
+          </ul>
+        </article>
+        <article class="footer-col" data-aos="fade-down">
+          <h4>Đối tác</h4>
+          <ul>
+            <li><a href="#"> phục vụ pepsi </a></li>
+            <li><a href="#">về quảng cáo đối tác </a></li>
+            <li><a href="#">tiềm năng</a></li>
+          </ul>
+        </article>
+        <article class="footer-col" data-aos="fade-left">
+          <h4>Theo dõi chúng tôi</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </article>
+      </section>
+    </section>
+
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script src="js/js.js"></script>
+</body>
+
+</html>
